@@ -15,5 +15,7 @@ public class Test {
         System.out.println("zmiana jakaś");
         System.out.println("zmiana jakaś");
 
+        System.out.println(mk);
+
     }
 }
