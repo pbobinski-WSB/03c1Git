@@ -7,7 +7,15 @@ public class MojaKlasa {
     @Override
     public String toString() {
         return "MojaKlasa{" +
-                "poleLiczbowe=" + poleLiczbowe +
+                "poleLiczbowe=" + getPoleLiczbowe() +
                 '}';
+    }
+
+    public int getPoleLiczbowe() {
+        return poleLiczbowe;
+    }
+
+    public void setPoleLiczbowe(int poleLiczbowe) {
+        this.poleLiczbowe = poleLiczbowe;
     }
 }
